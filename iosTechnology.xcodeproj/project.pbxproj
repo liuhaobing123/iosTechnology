@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0884413324C886FD00F5C81B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884413224C886FD00F5C81B /* AppDelegate.m */; };
-		0884413624C886FD00F5C81B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884413524C886FD00F5C81B /* SceneDelegate.m */; };
 		0884413924C886FD00F5C81B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884413824C886FD00F5C81B /* ViewController.m */; };
 		0884413C24C886FD00F5C81B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0884413A24C886FD00F5C81B /* Main.storyboard */; };
 		0884413E24C8870000F5C81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0884413D24C8870000F5C81B /* Assets.xcassets */; };
@@ -16,6 +15,7 @@
 		0884414424C8870000F5C81B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884414324C8870000F5C81B /* main.m */; };
 		0884414E24C8870100F5C81B /* iosTechnologyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884414D24C8870100F5C81B /* iosTechnologyTests.m */; };
 		0884415924C8870100F5C81B /* iosTechnologyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884415824C8870100F5C81B /* iosTechnologyUITests.m */; };
+		0884416824C8967E00F5C81B /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884416724C8967E00F5C81B /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		0884412E24C886FD00F5C81B /* iosTechnology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosTechnology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0884413124C886FD00F5C81B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0884413224C886FD00F5C81B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0884413424C886FD00F5C81B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		0884413524C886FD00F5C81B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		0884413724C886FD00F5C81B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0884413824C886FD00F5C81B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0884413B24C886FD00F5C81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		0884415424C8870100F5C81B /* iosTechnologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosTechnologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0884415824C8870100F5C81B /* iosTechnologyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosTechnologyUITests.m; sourceTree = "<group>"; };
 		0884415A24C8870100F5C81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0884416624C8967E00F5C81B /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		0884416724C8967E00F5C81B /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,6 @@
 			children = (
 				0884413124C886FD00F5C81B /* AppDelegate.h */,
 				0884413224C886FD00F5C81B /* AppDelegate.m */,
-				0884413424C886FD00F5C81B /* SceneDelegate.h */,
-				0884413524C886FD00F5C81B /* SceneDelegate.m */,
 				0884413724C886FD00F5C81B /* ViewController.h */,
 				0884413824C886FD00F5C81B /* ViewController.m */,
 				0884413A24C886FD00F5C81B /* Main.storyboard */,
@@ -115,6 +113,8 @@
 				0884413F24C8870000F5C81B /* LaunchScreen.storyboard */,
 				0884414224C8870000F5C81B /* Info.plist */,
 				0884414324C8870000F5C81B /* main.m */,
+				0884416624C8967E00F5C81B /* person.h */,
+				0884416724C8967E00F5C81B /* person.m */,
 			);
 			path = iosTechnology;
 			sourceTree = "<group>";
@@ -269,8 +269,8 @@
 			files = (
 				0884413924C886FD00F5C81B /* ViewController.m in Sources */,
 				0884413324C886FD00F5C81B /* AppDelegate.m in Sources */,
+				0884416824C8967E00F5C81B /* person.m in Sources */,
 				0884414424C8870000F5C81B /* main.m in Sources */,
-				0884413624C886FD00F5C81B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
