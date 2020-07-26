@@ -16,6 +16,8 @@
 		0884414E24C8870100F5C81B /* iosTechnologyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884414D24C8870100F5C81B /* iosTechnologyTests.m */; };
 		0884415924C8870100F5C81B /* iosTechnologyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884415824C8870100F5C81B /* iosTechnologyUITests.m */; };
 		0884416824C8967E00F5C81B /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884416724C8967E00F5C81B /* person.m */; };
+		08DC5E6624CDACA7007AF4C7 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DC5E6524CDACA7007AF4C7 /* Test.m */; };
+		08DC5E6C24CDAD30007AF4C7 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DC5E6B24CDAD30007AF4C7 /* Test1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		0884415A24C8870100F5C81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0884416624C8967E00F5C81B /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
 		0884416724C8967E00F5C81B /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
+		08DC5E6424CDACA7007AF4C7 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		08DC5E6524CDACA7007AF4C7 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		08DC5E6A24CDAD30007AF4C7 /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		08DC5E6B24CDAD30007AF4C7 /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				0884413224C886FD00F5C81B /* AppDelegate.m */,
 				0884413724C886FD00F5C81B /* ViewController.h */,
 				0884413824C886FD00F5C81B /* ViewController.m */,
+				08DC5E6424CDACA7007AF4C7 /* Test.h */,
+				08DC5E6524CDACA7007AF4C7 /* Test.m */,
+				08DC5E6A24CDAD30007AF4C7 /* Test1.h */,
+				08DC5E6B24CDAD30007AF4C7 /* Test1.m */,
 				0884413A24C886FD00F5C81B /* Main.storyboard */,
 				0884413D24C8870000F5C81B /* Assets.xcassets */,
 				0884413F24C8870000F5C81B /* LaunchScreen.storyboard */,
@@ -267,8 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08DC5E6624CDACA7007AF4C7 /* Test.m in Sources */,
 				0884413924C886FD00F5C81B /* ViewController.m in Sources */,
 				0884413324C886FD00F5C81B /* AppDelegate.m in Sources */,
+				08DC5E6C24CDAD30007AF4C7 /* Test1.m in Sources */,
 				0884416824C8967E00F5C81B /* person.m in Sources */,
 				0884414424C8870000F5C81B /* main.m in Sources */,
 			);

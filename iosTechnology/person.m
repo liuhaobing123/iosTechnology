@@ -10,9 +10,11 @@
 
 @interface person ()
 
-@property(nonatomic, strong) NSString *str1;
-@property(nonatomic, strong) NSString *str2;
-@property(nonatomic, strong) NSString *str3;
+{
+  NSString *_name;
+}
+@property (nonatomic, strong, readonly) NSString *name;
+
 
 @end
 
@@ -20,19 +22,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 }
 
-- (void) test1 {
-  NSLog(@"我是test1");
+-(void)setName:(NSString *)name
+{
+    NSLog(@"%s----------%@",__func__,name);
+  name = name;
 }
 
-- (void) test2 {
-  NSLog(@"我是test2");
+- (NSString *)name
+{
+    NSLog(@"%s----------%@",__func__,_name);
+    return _name;
 }
 
-- (void) test3 {
-  NSLog(@"我是test3");
-}
 
 @end
