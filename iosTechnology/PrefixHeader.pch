@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  iosTechnology
+//
+//  Created by Haobing Liu on 2021/1/13.
+//  Copyright © 2021 Haobing Liu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "iosTechnology-Swift.h"
+
+#endif /* PrefixHeader_pch */

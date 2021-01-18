@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0884413324C886FD00F5C81B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884413224C886FD00F5C81B /* AppDelegate.m */; };
-		0884413924C886FD00F5C81B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884413824C886FD00F5C81B /* ViewController.m */; };
 		0884413C24C886FD00F5C81B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0884413A24C886FD00F5C81B /* Main.storyboard */; };
 		0884413E24C8870000F5C81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0884413D24C8870000F5C81B /* Assets.xcassets */; };
 		0884414124C8870000F5C81B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0884413F24C8870000F5C81B /* LaunchScreen.storyboard */; };
@@ -16,6 +15,8 @@
 		0884414E24C8870100F5C81B /* iosTechnologyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884414D24C8870100F5C81B /* iosTechnologyTests.m */; };
 		0884415924C8870100F5C81B /* iosTechnologyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884415824C8870100F5C81B /* iosTechnologyUITests.m */; };
 		0884416824C8967E00F5C81B /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884416724C8967E00F5C81B /* person.m */; };
+		0884E85125ADFD7A003352D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0884E85025ADFD7A003352D3 /* ViewController.swift */; };
+		0884E85F25ADFE1C003352D3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0884E85E25ADFE1C003352D3 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		0884412E24C886FD00F5C81B /* iosTechnology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosTechnology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0884413124C886FD00F5C81B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0884413224C886FD00F5C81B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0884413724C886FD00F5C81B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0884413824C886FD00F5C81B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0884413B24C886FD00F5C81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0884413D24C8870000F5C81B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0884414024C8870000F5C81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,10 @@
 		0884415A24C8870100F5C81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0884416624C8967E00F5C81B /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
 		0884416724C8967E00F5C81B /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
+		0884E84F25ADFD7A003352D3 /* iosTechnology-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosTechnology-Bridging-Header.h"; sourceTree = "<group>"; };
+		0884E85025ADFD7A003352D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0884E85E25ADFE1C003352D3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		0884E86C25ADFF6E003352D3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +109,8 @@
 			children = (
 				0884413124C886FD00F5C81B /* AppDelegate.h */,
 				0884413224C886FD00F5C81B /* AppDelegate.m */,
-				0884413724C886FD00F5C81B /* ViewController.h */,
-				0884413824C886FD00F5C81B /* ViewController.m */,
+				0884E85025ADFD7A003352D3 /* ViewController.swift */,
+				0884E85E25ADFE1C003352D3 /* ViewController2.swift */,
 				0884413A24C886FD00F5C81B /* Main.storyboard */,
 				0884413D24C8870000F5C81B /* Assets.xcassets */,
 				0884413F24C8870000F5C81B /* LaunchScreen.storyboard */,
@@ -115,6 +118,8 @@
 				0884414324C8870000F5C81B /* main.m */,
 				0884416624C8967E00F5C81B /* person.h */,
 				0884416724C8967E00F5C81B /* person.m */,
+				0884E84F25ADFD7A003352D3 /* iosTechnology-Bridging-Header.h */,
+				0884E86C25ADFF6E003352D3 /* PrefixHeader.pch */,
 			);
 			path = iosTechnology;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				TargetAttributes = {
 					0884412D24C886FD00F5C81B = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1220;
 					};
 					0884414824C8870100F5C81B = {
 						CreatedOnToolsVersion = 11.5;
@@ -267,9 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0884413924C886FD00F5C81B /* ViewController.m in Sources */,
+				0884E85F25ADFE1C003352D3 /* ViewController2.swift in Sources */,
 				0884413324C886FD00F5C81B /* AppDelegate.m in Sources */,
 				0884416824C8967E00F5C81B /* person.m in Sources */,
+				0884E85125ADFD7A003352D3 /* ViewController.swift in Sources */,
 				0884414424C8870000F5C81B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,15 +446,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6V9P8KD9B2;
+				DEVELOPMENT_TEAM = 99PJ6X3Z7H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iosTechnology/PrefixHeader.pch;
 				INFOPLIST_FILE = iosTechnology/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "---.iosTechnology";
+				PRODUCT_BUNDLE_IDENTIFIER = liuhaobing.iosTechnology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosTechnology/iosTechnology-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -456,15 +469,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6V9P8KD9B2;
+				DEVELOPMENT_TEAM = 99PJ6X3Z7H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iosTechnology/PrefixHeader.pch;
 				INFOPLIST_FILE = iosTechnology/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "---.iosTechnology";
+				PRODUCT_BUNDLE_IDENTIFIER = liuhaobing.iosTechnology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosTechnology/iosTechnology-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -472,6 +490,7 @@
 		0884416124C8870100F5C81B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6V9P8KD9B2;
@@ -492,6 +511,7 @@
 		0884416224C8870100F5C81B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6V9P8KD9B2;
@@ -512,6 +532,7 @@
 		0884416424C8870100F5C81B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6V9P8KD9B2;
 				INFOPLIST_FILE = iosTechnologyUITests/Info.plist;
@@ -530,6 +551,7 @@
 		0884416524C8870100F5C81B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6V9P8KD9B2;
 				INFOPLIST_FILE = iosTechnologyUITests/Info.plist;
