@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083CB5D6269C313A00329C9E /* LinkAccount_Lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083CB5D5269C313A00329C9E /* LinkAccount_Lib.framework */; };
+		083CB5D9269C344E00329C9E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 083CB5D8269C344E00329C9E /* libz.tbd */; };
+		083CB5DB269C345900329C9E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 083CB5DA269C345900329C9E /* libc++.tbd */; };
 		0884413324C886FD00F5C81B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884413224C886FD00F5C81B /* AppDelegate.m */; };
 		0884413924C886FD00F5C81B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884413824C886FD00F5C81B /* ViewController.m */; };
 		0884413C24C886FD00F5C81B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0884413A24C886FD00F5C81B /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		083CB5D5269C313A00329C9E /* LinkAccount_Lib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LinkAccount_Lib.framework; sourceTree = "<group>"; };
+		083CB5D8269C344E00329C9E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		083CB5DA269C345900329C9E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		0884412E24C886FD00F5C81B /* iosTechnology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosTechnology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0884413124C886FD00F5C81B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0884413224C886FD00F5C81B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083CB5DB269C345900329C9E /* libc++.tbd in Frameworks */,
+				083CB5D9269C344E00329C9E /* libz.tbd in Frameworks */,
+				083CB5D6269C313A00329C9E /* LinkAccount_Lib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		083CB5D4269C313A00329C9E /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				083CB5D5269C313A00329C9E /* LinkAccount_Lib.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		083CB5D7269C344E00329C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083CB5DA269C345900329C9E /* libc++.tbd */,
+				083CB5D8269C344E00329C9E /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0884412524C886FD00F5C81B = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +114,7 @@
 				0884414C24C8870100F5C81B /* iosTechnologyTests */,
 				0884415724C8870100F5C81B /* iosTechnologyUITests */,
 				0884412F24C886FD00F5C81B /* Products */,
+				083CB5D7269C344E00329C9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +131,7 @@
 		0884413024C886FD00F5C81B /* iosTechnology */ = {
 			isa = PBXGroup;
 			children = (
+				083CB5D4269C313A00329C9E /* SDK */,
 				0884413124C886FD00F5C81B /* AppDelegate.h */,
 				0884413224C886FD00F5C81B /* AppDelegate.m */,
 				0884413724C886FD00F5C81B /* ViewController.h */,
@@ -441,6 +469,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6V9P8KD9B2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosTechnology/SDK",
+				);
 				INFOPLIST_FILE = iosTechnology/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +490,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6V9P8KD9B2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosTechnology/SDK",
+				);
 				INFOPLIST_FILE = iosTechnology/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

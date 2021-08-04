@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <objc/runtime.h>
 #import "person.h"
+#import<LinkAccount_Lib/LinkAccount.h>
 
 static NSString *imageURLKey = @"imageURLKey";
 
@@ -22,7 +23,9 @@ static NSString *imageURLKey = @"imageURLKey";
   [super viewDidLoad];
   self.view.backgroundColor = [UIColor redColor];
   
-  //self.height = 10;
+  [LMAuthSDKManager initWithKey:@"1ee12f2ab627b3d11ef7a38762c7cd2b" complete:^(NSDictionary * _Nonnull resultDic) {
+      NSLog(@"%@", resultDic);
+  }];
 }
 
 - (void)viewDidAppear:(BOOL)animated
