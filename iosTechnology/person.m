@@ -25,6 +25,7 @@
 
 - (void) test1 {
   NSLog(@"我是test1");
+  NSLog(@"我是test2");
 }
 
 - (void) test2 {
