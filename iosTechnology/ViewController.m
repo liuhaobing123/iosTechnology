@@ -24,7 +24,7 @@ static NSString *imageURLKey = @"imageURLKey";
   self.view.backgroundColor = [UIColor redColor];
   
   [LMAuthSDKManager initWithKey:@"1ee12f2ab627b3d11ef7a38762c7cd2b" complete:^(NSDictionary * _Nonnull resultDic) {
-      //NSLog(@"%@", resultDic);
+      NSLog(@"%@", resultDic);
   }];
 }
 
