@@ -24,14 +24,14 @@ static NSString *imageURLKey = @"imageURLKey";
   self.view.backgroundColor = [UIColor redColor];
   
   [LMAuthSDKManager initWithKey:@"1ee12f2ab627b3d11ef7a38762c7cd2b" complete:^(NSDictionary * _Nonnull resultDic) {
-      //NSLog(@"%@", resultDic);
+      NSLog(@"%@", resultDic);
   }];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
   [super viewDidAppear:animated];
-  //NSLog(@"%f",self.height);
+    NSLog(@"%f",self.height);
   
   //获得所有的属性
 //  unsigned int count;
